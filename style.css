@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +5,6 @@
   color: rgb(25, 52, 5);
   font-family: "Titillium Web", sans-serif;
 }
-
 #title {
   font-size: 46px;
 }
@@ -17,11 +15,12 @@ header {
   color: rgb(25, 52, 5);
   font-weight: 700;
   border-bottom: 2px solid rgb(25, 52, 5);
+  padding: 0 30px;
 }
 main {
-  padding: 28px;
+  padding: 30px;
   display: flex;
-  gap: 20px;
+  gap: 25px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -44,7 +43,17 @@ button {
   background-color: rgb(25, 52, 5);
   color: rgb(196, 130, 55);
   font-weight: 700;
-  padding: 7px;
+  padding: 7px 25px;
+  margin: 10px 10px 0 0;
+}
+#detail {
+  padding: 15px;
+  border-left: 10px solid rgb(25, 52, 5);
+  border-radius: 0 10px 0;
+}
+#detail p,
+h2 {
+  padding-top: 10px;
 }
 footer {
   position: sticky;
@@ -53,4 +62,9 @@ footer {
   width: 100%;
   text-align: center;
   border-top: 2px solid rgb(25, 52, 5);
+  font-weight: 700;
 }
+/* .icon {
+  font-size: 20px;
+  color: green;
+} */
