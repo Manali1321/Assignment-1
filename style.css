@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
-body,
-p {
+* {
   padding: 0;
   margin: 0;
   background-color: rgb(196, 130, 55);
   color: rgb(25, 52, 5);
   font-family: "Titillium Web", sans-serif;
 }
+
 #title {
   font-size: 46px;
 }
@@ -16,23 +16,41 @@ p {
 header {
   color: rgb(25, 52, 5);
   font-weight: 700;
+  border-bottom: 2px solid rgb(25, 52, 5);
 }
 main {
+  padding: 28px;
   display: flex;
+  gap: 20px;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 28px;
 }
+
 #card {
   width: 315px;
-  height: 415px;
 }
+
 #img {
-  border: 2px solid black;
+  background-color: rgb(25, 52, 5);
+  padding: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  background-color: rgb(25, 52, 5);
+  color: rgb(196, 130, 55);
+  font-weight: 700;
+  padding: 7px;
 }
 footer {
-  position: relative;
+  position: sticky;
   bottom: 0;
+  left: 0;
   width: 100%;
-  height: 60px;
+  text-align: center;
+  border-top: 2px solid rgb(25, 52, 5);
 }

@@ -12,7 +12,7 @@
 <body>
   <header>
     <span id="title"> ArtAuction: </span>
-    <span id="title_secondry">The Place To Buy PAINTS<span>
+    <span id="title_secondry">The Place To Buy PAINTS</span>
   </header>
   <main>
     <?php
@@ -39,7 +39,7 @@
     while ($record = mysqli_fetch_assoc($result)) {
       echo '<div id="card">';
       echo '<div id="img">';
-      echo '<img src="' . $record['image'] . '" width="300" height="400">';
+      echo '<img src="' . $record['image'] . '" width="90%" height="90%">';
       echo '</div>';
       echo '<div id="detail">';
       echo '<h2>' . $record['name'] . '</h2>';
